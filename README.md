@@ -17,3 +17,4 @@ ON usb_monitor.*
 TO 'usb_agent'@'%';
 
 FLUSH PRIVILEGES;
+python -m dashboard.dashboard
