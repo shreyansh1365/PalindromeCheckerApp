@@ -56,3 +56,16 @@ netsh advfirewall firewall add rule name="Allow USB Sentinel Ping" protocol=icmp
 
 
 netsh advfirewall firewall add rule name="USB Sentinel MySQL 3306" dir=in action=allow protocol=TCP localport=3306
+
+
+
+
+netsh advfirewall firewall add rule name="Allow MySQL 3306" dir=in action=allow protocol=TCP localport=3306 profile=any
+
+
+
+netsh advfirewall firewall add rule name="Allow ICMPv4 Ping" protocol=icmpv4:8,any dir=in action=allow profile=any
+
+
+ping 192.168.1.9
+Test-NetConnection 192.168.1.9 -Port 3306
