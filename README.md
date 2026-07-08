@@ -53,3 +53,6 @@ python -m pip install -r requirements.txt
 
 
 netsh advfirewall firewall add rule name="Allow USB Sentinel Ping" protocol=icmpv4:8,any dir=in action=allow
+
+
+netsh advfirewall firewall add rule name="USB Sentinel MySQL 3306" dir=in action=allow protocol=TCP localport=3306
