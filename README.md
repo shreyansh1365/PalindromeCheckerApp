@@ -34,3 +34,14 @@ At line:1 char:1
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
     + FullyQualifiedErrorId : NativeCommandFailed
+
+
+
+
+
+
+
+
+
+
+python -m pip --version
