@@ -49,3 +49,7 @@ python -m pip --version
 
 
 python -m pip install -r requirements.txt
+
+
+
+netsh advfirewall firewall add rule name="Allow USB Sentinel Ping" protocol=icmpv4:8,any dir=in action=allow
