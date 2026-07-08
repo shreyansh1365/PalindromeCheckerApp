@@ -45,3 +45,7 @@ At line:1 char:1
 
 
 python -m pip --version
+
+
+
+python -m pip install -r requirements.txt
